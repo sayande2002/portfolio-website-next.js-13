@@ -1,5 +1,5 @@
 export const metadata = {
-  title: 'Sayan De | Projects',
+  title: "Projects",
 };
 const Projects = () => {
   return <div>Projects</div>;

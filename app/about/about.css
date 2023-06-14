@@ -1,0 +1,67 @@
+.about-light {
+  --about-background-color: white;
+  --about-color: black;
+  --about-essay-color: black;
+  --about-bicolor: #7303a7;
+}
+.about-dark {
+  --about-background-color: #0f0f0f;
+  --about-color: white;
+  --about-essay-color: white;
+  --about-bicolor: #a020f0;
+}
+.about {
+  background-color: var(--about-background-color);
+  color: var(--about-color);
+  padding: 3.6rem;
+}
+.about-icon {
+  margin-top: 2px;
+}
+.about-icon:hover {
+  color: #7303a7;
+}
+.about-heading {
+  text-align: center;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  font-size: 2.3rem;
+  font-weight: 600;
+}
+.about-bicolor {
+  color: var(--about-bicolor);
+}
+.about-essay {
+  margin-top: 2rem;
+  color: var(--about-essay-color);
+  font-size: 1.2rem;
+}
+.about-button {
+  cursor: pointer;
+  display: flex;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 14px 32px;
+  border-radius: 7px;
+  cursor: pointer;
+  color: white;
+  background-color: #4221d4;
+  border: none;
+  box-shadow: 0px 5px 10px rgb(48 68 247 / 60%);
+  align-items: center;
+  box-sizing: border-box;
+}
+.about-resume-icon {
+  stroke: white;
+  stroke-width: 2;
+}
+.about-button:hover .about-resume-icon {
+  margin-left: 3%;
+  transition: 0.3s ease-in-out;
+}
+@media only screen and (max-width: 600px) {
+  .about {
+    padding: 1rem;
+  }
+}
